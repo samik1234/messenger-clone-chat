@@ -6,27 +6,39 @@ import { useEffect, useMemo, useState } from "react";
 import { MdOutlineGroupAdd } from 'react-icons/md';
 import clsx from "clsx";
 
+import { User } from "@prisma/client";
+
 import useConversation from "@/app/hooks/useConversation";
 import { FullConversationType } from "@/app/types";
 import ConversationBox from "./ConversationBox";
+import GroupChatModal from "./GroupChatModal";
 
 interface ConversationListProps {
   initialItems: FullConversationType[];
- 
+  users: User[];
+  title?: string;
+
 }
 
 const ConversationList: React.FC<ConversationListProps> = ({ 
   initialItems, 
-
+  users
 }) => {
   const [items, setItems] = useState(initialItems);
   const router = useRouter();
   const session = useSession();
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const { conversationId, isOpen } = useConversation();
 
   return (
     <>
+      <GroupChatModal 
+        users={users} 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)}
+      />
       <aside className={clsx(`
         fixed 
         inset-y-0 
@@ -45,7 +57,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
               Messages
             </div>
             <div 
-              
+              onClick={() => setIsModalOpen(true)} 
               className="
                 rounded-full 
                 p-2 
