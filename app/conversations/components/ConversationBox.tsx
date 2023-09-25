@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Conversation, Message, User } from "@prisma/client";
 import { useSession } from "next-auth/react";
 
+import AvatarGroup from "@/app/components/AvatarGroup";
 
 import useOtherUser from "@/app/hooks/useOtherUser";
 import { format } from "date-fns";
@@ -17,9 +18,9 @@ interface ConversationBoxProps {
   selected?: boolean;
 }
 
-const ConversationBox: React.FC<ConversationBoxProps> = ({ 
-  data, 
-  selected 
+const ConversationBox: React.FC<ConversationBoxProps> = ({
+  data,
+  selected
 }) => {
 
 
@@ -39,7 +40,7 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
 
   const userEmail = useMemo(() => {
     return session.data?.user?.email;
-  },[session.data?.user?.email]);
+  }, [session.data?.user?.email]);
 
   const hasSeen = useMemo(() => {
     if (!lastMessage) {
@@ -88,11 +89,15 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
         selected ? 'bg-neutral-100' : 'bg-white'
       )}
     >
-     <Avatar user={otherUser} />
-     <div className="min-w-0 flex-1">
+      {data.isGroup ? (
+        <AvatarGroup users={data.users} />
+      ) : (
+        <Avatar user={otherUser} />
+      )}
+      <div className="min-w-0 flex-1">
         <div className="focus:outline-none">
-        <span className="absolute inset-0" aria-hidden="true" />
-        <div className="flex justify-between items-center mb-1">
+          <span className="absolute inset-0" aria-hidden="true" />
+          <div className="flex justify-between items-center mb-1">
             <p className="text-md font-medium text-gray-900">
               {data.name || otherUser.name}
             </p>
@@ -101,19 +106,19 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
                 {format(new Date(lastMessage.createdAt), 'p')}
               </p>
             )}
-         </div>
-         <p 
-           className={clsx(`
+          </div>
+          <p
+            className={clsx(`
               truncate 
               text-sm
               `,
               hasSeen ? 'text-gray-500' : 'text-black font-medium'
             )}>
-              {lastMessageText}
+            {lastMessageText}
           </p>
-       </div>
-     </div>
-   
+        </div>
+      </div>
+
     </div>
   )
 }
