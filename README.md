@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+![msg1](https://github.com/samik1234/messenger-clone-chat/assets/82882143/b36a0acd-e0e1-4a4f-bab8-fa41521427a4)
+
+
+
+
 ## Getting Started
 
 First, run the development server:
