@@ -5,12 +5,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-
-
-
-
-Install packages
-npm i
 Setup .env file
 DATABASE_URL=
 NEXTAUTH_SECRET=
@@ -28,10 +22,9 @@ GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 Setup Prisma
 npx prisma db push
-Start the app
-npm run dev
-Available commands
-Running commands with npm npm run [command]
+
+
+
 
 
 ## Deploy on Vercel
