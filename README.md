@@ -7,13 +7,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Setup .env file
 DATABASE_URL=
+
+
 NEXTAUTH_SECRET=
 
 NEXT_PUBLIC_PUSHER_APP_KEY=
+
 PUSHER_APP_ID=
+
 PUSHER_SECRET=
 
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+
 
 GITHUB_ID=
 GITHUB_SECRET=
