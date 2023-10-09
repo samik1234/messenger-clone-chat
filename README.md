@@ -16,7 +16,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
+
 KEY FEATURES :
+
+
 
 • Group chats and one-on-one messaging
 
@@ -31,6 +34,9 @@ KEY FEATURES :
 • Handling relations between Server and Child components in a real-time environment
 
 • Creating and managing chat rooms and channels
+
+
+
 
 
 
@@ -61,6 +67,10 @@ KEY FEATURES :
 • GOOGLE_CLIENT_ID=
 
 • GOOGLE_CLIENT_SECRET=
+
+
+
+
 
  → Setup Prisma
 
