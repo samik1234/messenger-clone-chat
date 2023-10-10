@@ -45,7 +45,19 @@ KEY FEATURES :
 
 
 
+
+
+
+
+
+
+
+
+
+
 → Setup .env file:
+
+
 
 • DATABASE_URL=
 
@@ -83,6 +95,17 @@ npx prisma db push
 Start the app
 
 npm run dev
+
+
+
+
+
+
+
+
+
+
+
 
 
 
