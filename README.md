@@ -1,6 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
+
+
+
+
+
+
+
+
 ![msg1](https://github.com/samik1234/messenger-clone-chat/assets/82882143/b36a0acd-e0e1-4a4f-bab8-fa41521427a4)
 
 
@@ -9,6 +17,34 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+![nextjs](https://github.com/samik1234/messenger-clone-chat/assets/82882143/b61a7849-9538-4664-9fba-b71630374459)
+
+
+
+
+
+
+
+![css](https://github.com/samik1234/messenger-clone-chat/assets/82882143/c0902d67-2e8a-4c83-972a-3b313ad50c08)
+
+
+
+
+
+
+
+![node](https://github.com/samik1234/messenger-clone-chat/assets/82882143/3d8582ed-a88c-4a17-97a0-7d0370ae3440)
 
 
 
