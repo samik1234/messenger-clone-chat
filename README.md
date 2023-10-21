@@ -40,6 +40,15 @@ KEY FEATURES :
 
 
 
+
+
+
+
+
+
+
+
+
 • Group chats and one-on-one messaging
 
 • Message attachments and file sharing
@@ -74,7 +83,16 @@ KEY FEATURES :
 
 
 
+
+
+
 → Setup .env file:
+
+
+
+
+
+
 
 
 
