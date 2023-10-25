@@ -66,7 +66,26 @@ KEY FEATURES :
 
 
 
+A messenger clone app typically includes the following features:
 
+Group chats and one-on-one messaging
+
+
+Message attachments and file sharing
+
+
+User profile customization and settings
+
+
+As for the technical aspects, here are some of the features that you might find in a messenger clone app:
+
+How to write POST, GET, and DELETE routes in route handlers (app/api)
+
+How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
+
+Handling relations between Server and Child components in a real-time environment
+
+Creating and managing chat rooms and channels
 
 
 
