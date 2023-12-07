@@ -5,12 +5,31 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-![google](https://github.com/samik1234/messenger-clone-chat/assets/82882143/42171b0e-af7e-411b-b528-e5a48c31866c)
 
 
 
 
 ![msg1](https://github.com/samik1234/messenger-clone-chat/assets/82882143/b36a0acd-e0e1-4a4f-bab8-fa41521427a4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![google](https://github.com/samik1234/messenger-clone-chat/assets/82882143/49ff49f4-b296-4c44-b0e1-b5eff1297f59)
+
+
+
+
 
 
 
