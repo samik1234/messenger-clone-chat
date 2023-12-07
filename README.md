@@ -25,7 +25,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-![google](https://github.com/samik1234/messenger-clone-chat/assets/82882143/49ff49f4-b296-4c44-b0e1-b5eff1297f59)
 
 
 
